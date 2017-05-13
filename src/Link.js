@@ -3,7 +3,7 @@ import './css/Link.css';
 
 class Link extends Component {
   render() {
-    return (<a href="" className="Link"> <img alt="image"></img> </a>)
+    return (<a href={this.props.href} className="Link"><img alt={this.props.alt} src={this.props.src}></img></a>)
   }
 }
 
